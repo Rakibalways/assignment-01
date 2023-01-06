@@ -3,10 +3,6 @@
   font-family: 'open sans', sans-serif;
 }
 
-.header {
-  background-image: url('../images/banner/banner2.png');
-}
-
 /* banner styles */
 .banner {
   box-sizing: 1600px 808px;
@@ -43,4 +39,31 @@
   margin: 4px 2px;
   border-radius: 5px;
   font-style: normal;
+}
+
+/* main section */
+.main{
+  text-align: left;
+}
+.year{
+}
+
+.main .pic-1 {
+  max-width: 570px;
+  max-height: 720px;
+}
+.main .year{
+  max-width: 416px;
+  max-height: 400px;
+  margin: 0 auto;
+}
+/* previous year section style */
+.year{
+
+}
+.section-title{
+
+}
+.section-description{
+
 }

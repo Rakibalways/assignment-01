@@ -42,21 +42,30 @@
 }
 
 /* main section */
-.main{
+.main {
   text-align: left;
 }
-.year{
+
+.year ul li {
+  list-style: none;
+}
+
+ul li::before {
+  color: green;
+  border: 2px solid colo#16D887;
 }
 
 .main .pic-1 {
   max-width: 570px;
   max-height: 720px;
 }
-.main .year{
+
+.main .year {
   max-width: 416px;
   max-height: 400px;
   margin: 0 auto;
 }
+
 /* previous year section style */
 .plans h3 {
   text-align: center;
@@ -64,20 +73,112 @@
   font-size: 40px;
   color: #151414;
 }
+
 .plans-info-container {
   display: flex;
   justify-content: space-around;
 }
+
 .plans .plans-info {
   font-size: 30px;
   color: #151414;
+  gap: 90px;
 }
-.plans-title{
 
+.plans-info .icon {
+  display: flex;
 }
-.plans-description{
+
+.plans-description {
   font-size: 25px;
   text-align: center;
   color: #737272;
 }
 
+/* contact style */
+.contact .section-title {
+  text-align: left;
+}
+
+.contact .social-area {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.contact .social-area li {
+  display: inline-block;
+}
+
+.social-area {
+  ul {
+    text-align: right;
+    ;
+
+    li {
+      margin-right: 15px;
+
+      a {
+        display: block;
+        background-color: #737272;
+        width: 40px;
+        height: 40px;
+        font-size: 15px;
+        text-align: center;
+        padding-top: 8px;
+        border-radius: 30px;
+      }
+    }
+  }
+}
+
+.contact {
+  display: flex;
+  gap: 550px;
+  background: #151414;
+  box-sizing: 1600px 577px;
+  padding: 130px 230px;
+}
+
+.contact h3 {
+  font-weight: 700;
+  font-size: 45px;
+  margin-bottom: 16px;
+  color: #F8F8F8;
+}
+
+.contact .par-1 {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  position: absolute;
+  color: #FFFFFF;
+  margin-bottom: 24px;
+}
+
+.contact .par-2 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120px;
+  color: #FFFFFF;
+}
+
+.contact .par-3 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+}
+
+.contact .section-title {
+  text-align: left;
+}
+
+.contact h5 {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 29px;
+  color: #FFFFFF;
+  display: inline-block;
+}

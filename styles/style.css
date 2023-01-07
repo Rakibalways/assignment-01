@@ -58,14 +58,26 @@
   margin: 0 auto;
 }
 /* previous year section style */
-.year{
+.plans h3 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  color: #151414;
+}
+.plans-info-container {
+  display: flex;
+  justify-content: space-around;
+}
+.plans .plans-info {
+  font-size: 30px;
+  color: #151414;
+}
+.plans-title{
 
 }
-.section-title{
-
+.plans-description{
+  font-size: 25px;
+  text-align: center;
+  color: #737272;
 }
-.section-description{
-
-}
-
 

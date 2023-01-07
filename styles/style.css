@@ -142,10 +142,10 @@ ul li::before {
 
 .contact {
   display: flex;
-  gap: 900px;
+  gap: 1570px;
   background: #151414;
   box-sizing: 1500px 570px;
-  padding: 130px 230px;
+  padding: 130px 100px;
   margin-top: 200px;
 }
 

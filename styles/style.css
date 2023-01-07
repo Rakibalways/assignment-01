@@ -122,7 +122,7 @@ ul li::before {
 .social-area {
   ul {
     text-align: right;
-    
+
     li {
       margin-right: 15px;
 
@@ -142,7 +142,7 @@ ul li::before {
 
 .contact {
   display: flex;
-  gap: 1290px;
+  gap: 900px;
   background: #151414;
   box-sizing: 1500px 570px;
   padding: 130px 230px;

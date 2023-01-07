@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  font-family: 'open sans', sans-serif;
+  font-family: 'Work Sans', sans-serif;
 }
 
 /* banner styles */
@@ -67,7 +67,14 @@ ul li::before {
 }
 
 /* previous year section style */
-.plans h3 {
+.year {
+  box-sizing: 1600px 808px;
+  display: flex;
+  float: right;
+  align-items: center;
+}
+
+.year h3 {
   text-align: center;
   font-weight: 700;
   font-size: 40px;
@@ -87,6 +94,7 @@ ul li::before {
 
 .plans-info .icon {
   display: flex;
+  text-align: center;
 }
 
 .plans-description {
@@ -96,6 +104,7 @@ ul li::before {
 }
 
 /* contact style */
+
 .contact .section-title {
   text-align: left;
 }
@@ -113,8 +122,7 @@ ul li::before {
 .social-area {
   ul {
     text-align: right;
-    ;
-
+    
     li {
       margin-right: 15px;
 
@@ -134,51 +142,75 @@ ul li::before {
 
 .contact {
   display: flex;
-  gap: 550px;
+  gap: 1290px;
   background: #151414;
-  box-sizing: 1600px 577px;
+  box-sizing: 1500px 570px;
   padding: 130px 230px;
+  margin-top: 200px;
 }
 
-.contact h3 {
+h3 {
   font-weight: 700;
   font-size: 45px;
   margin-bottom: 16px;
   color: #F8F8F8;
 }
 
-.contact .par-1 {
+.par-1 {
   font-weight: 400;
-  font-size: 13px;
-  line-height: 20px;
+  font-size: 13 px;
+  line-height: 18px;
   position: absolute;
   color: #FFFFFF;
   margin-bottom: 24px;
 }
 
-.contact .par-2 {
+.par-2 {
   font-weight: 400;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 120px;
   color: #FFFFFF;
 }
 
-.contact .par-3 {
+.par-3 {
   font-weight: 400;
-  font-size: 16px;
+  font-size: 13px;
   line-height: 24px;
   color: #FFFFFF;
   margin-bottom: 16px;
 }
 
-.contact .section-title {
+.section-title {
   text-align: left;
 }
 
-.contact h5 {
+h5 {
   font-weight: 600;
   font-size: 25px;
   line-height: 29px;
   color: #FFFFFF;
   display: inline-block;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 14px;
+  text-align: left;
+  font-size: 20px;
+}
+
+.btn {
+  background-color: #FFFFFF;
+  color: #F15B22;
+  border: none;
+  font-weight: 600;
+  padding: 14px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  border-radius: 5px;
+  font-style: normal;
+  margin-top: 20px;
 }
